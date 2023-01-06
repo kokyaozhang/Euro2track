@@ -15,7 +15,7 @@ class PostController extends Controller
                 ->orwhere('Equipment_Name', 'like', '%' . $request->search . '%')
                 ->orwhere('Serial_No', 'like', '%' . $request->search . '%')->get();
 
-
+//ewqewqewqe
             $output = '';
             if (count($data) > 0) {
 
